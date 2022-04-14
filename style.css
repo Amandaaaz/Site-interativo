@@ -240,6 +240,13 @@ td, th {
 
 .imagem-beneficios {
     width: 60%;
+    transition: 400ms;
+    opacity: 1;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.imagem-beneficios:hover{
+    opacity: 0.3;
 }
 
 .video {
